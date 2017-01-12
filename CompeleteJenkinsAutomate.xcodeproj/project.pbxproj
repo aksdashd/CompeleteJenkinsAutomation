@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		68B820F0858C5105E933A8C6 /* Pods_CompeleteJenkinsAutomate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFEAE76D10226641CB26E2AB /* Pods_CompeleteJenkinsAutomate.framework */; };
-		877E8BD13F85CD60B81D2CFF /* Pods_CompeleteJenkinsAutomateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69419CA92A37AF90FEC4B20 /* Pods_CompeleteJenkinsAutomateUITests.framework */; };
 		94DB4F1FE9393404D055754A /* Pods_CompeleteJenkinsAutomateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57053F54F785A4B5CCC48D6A /* Pods_CompeleteJenkinsAutomateTests.framework */; };
 		FF2A24E11E2802EB0014EB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A24E01E2802EB0014EB94 /* AppDelegate.swift */; };
 		FF2A24E31E2802EB0014EB94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A24E21E2802EB0014EB94 /* ViewController.swift */; };
@@ -16,18 +15,10 @@
 		FF2A24E81E2802EC0014EB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2A24E71E2802EC0014EB94 /* Assets.xcassets */; };
 		FF2A24EB1E2802EC0014EB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2A24E91E2802EC0014EB94 /* LaunchScreen.storyboard */; };
 		FF2A24F61E2802EC0014EB94 /* CompeleteJenkinsAutomateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A24F51E2802EC0014EB94 /* CompeleteJenkinsAutomateTests.swift */; };
-		FF2A25011E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A25001E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FF2A24F21E2802EC0014EB94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FF2A24D51E2802EB0014EB94 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF2A24DC1E2802EB0014EB94;
-			remoteInfo = CompeleteJenkinsAutomate;
-		};
-		FF2A24FD1E2802EC0014EB94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FF2A24D51E2802EB0014EB94 /* Project object */;
 			proxyType = 1;
@@ -56,7 +47,6 @@
 		FF2A24F11E2802EC0014EB94 /* CompeleteJenkinsAutomateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompeleteJenkinsAutomateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2A24F51E2802EC0014EB94 /* CompeleteJenkinsAutomateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompeleteJenkinsAutomateTests.swift; sourceTree = "<group>"; };
 		FF2A24F71E2802EC0014EB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF2A24FC1E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompeleteJenkinsAutomateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2A25001E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompeleteJenkinsAutomateUITests.swift; sourceTree = "<group>"; };
 		FF2A25021E2802EC0014EB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,14 +65,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				94DB4F1FE9393404D055754A /* Pods_CompeleteJenkinsAutomateTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF2A24F91E2802EC0014EB94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				877E8BD13F85CD60B81D2CFF /* Pods_CompeleteJenkinsAutomateUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +111,6 @@
 			children = (
 				FF2A24DD1E2802EB0014EB94 /* CompeleteJenkinsAutomate.app */,
 				FF2A24F11E2802EC0014EB94 /* CompeleteJenkinsAutomateTests.xctest */,
-				FF2A24FC1E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,27 +190,6 @@
 			productReference = FF2A24F11E2802EC0014EB94 /* CompeleteJenkinsAutomateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FF2A24FB1E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF2A250B1E2802EC0014EB94 /* Build configuration list for PBXNativeTarget "CompeleteJenkinsAutomateUITests" */;
-			buildPhases = (
-				B18EBE703F58C521DCE3848C /* [CP] Check Pods Manifest.lock */,
-				FF2A24F81E2802EC0014EB94 /* Sources */,
-				FF2A24F91E2802EC0014EB94 /* Frameworks */,
-				FF2A24FA1E2802EC0014EB94 /* Resources */,
-				E664677A1898B1E2CA2CFA65 /* [CP] Embed Pods Frameworks */,
-				F54052A547D2EBA0CCC00919 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF2A24FE1E2802EC0014EB94 /* PBXTargetDependency */,
-			);
-			name = CompeleteJenkinsAutomateUITests;
-			productName = CompeleteJenkinsAutomateUITests;
-			productReference = FF2A24FC1E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -242,16 +202,13 @@
 				TargetAttributes = {
 					FF2A24DC1E2802EB0014EB94 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = WYZ2CQVKKH;
+						ProvisioningStyle = Manual;
 					};
 					FF2A24F01E2802EC0014EB94 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = FF2A24DC1E2802EB0014EB94;
-					};
-					FF2A24FB1E2802EC0014EB94 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = WYZ2CQVKKH;
+						ProvisioningStyle = Manual;
 						TestTargetID = FF2A24DC1E2802EB0014EB94;
 					};
 				};
@@ -271,7 +228,6 @@
 			targets = (
 				FF2A24DC1E2802EB0014EB94 /* CompeleteJenkinsAutomate */,
 				FF2A24F01E2802EC0014EB94 /* CompeleteJenkinsAutomateTests */,
-				FF2A24FB1E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,13 +250,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF2A24FA1E2802EC0014EB94 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -316,7 +265,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		86D4E3C4A08B816EBE801050 /* [CP] Copy Pods Resources */ = {
@@ -361,37 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B18EBE703F58C521DCE3848C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E664677A1898B1E2CA2CFA65 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CompeleteJenkinsAutomateUITests/Pods-CompeleteJenkinsAutomateUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		ED12CFDA0B77E28515D56CA1 /* [CP] Copy Pods Resources */ = {
@@ -424,21 +343,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CompeleteJenkinsAutomateTests/Pods-CompeleteJenkinsAutomateTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F54052A547D2EBA0CCC00919 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CompeleteJenkinsAutomateUITests/Pods-CompeleteJenkinsAutomateUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -459,14 +363,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF2A24F81E2802EC0014EB94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF2A25011E2802EC0014EB94 /* CompeleteJenkinsAutomateUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -474,11 +370,6 @@
 			isa = PBXTargetDependency;
 			target = FF2A24DC1E2802EB0014EB94 /* CompeleteJenkinsAutomate */;
 			targetProxy = FF2A24F21E2802EC0014EB94 /* PBXContainerItemProxy */;
-		};
-		FF2A24FE1E2802EC0014EB94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF2A24DC1E2802EB0014EB94 /* CompeleteJenkinsAutomate */;
-			targetProxy = FF2A24FD1E2802EC0014EB94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -523,7 +414,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Johnson & Johnson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johnson & Johnson";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -573,7 +465,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Johnson & Johnson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johnson & Johnson";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -600,10 +493,15 @@
 			baseConfigurationReference = D7E59B8E48271D6FFAB737E5 /* Pods-CompeleteJenkinsAutomate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Johnson & Johnson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johnson & Johnson";
+				DEVELOPMENT_TEAM = WYZ2CQVKKH;
 				INFOPLIST_FILE = CompeleteJenkinsAutomate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.CompeleteJenkinsAutomate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.MyAcuvueConsumer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00291467-d492-44fa-ba5c-a907126f27f2";
+				PROVISIONING_PROFILE_SPECIFIER = "JNJ Universall App Distribution";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -613,10 +511,15 @@
 			baseConfigurationReference = CAB7ACDEBE49656B8853086F /* Pods-CompeleteJenkinsAutomate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Johnson & Johnson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johnson & Johnson";
+				DEVELOPMENT_TEAM = WYZ2CQVKKH;
 				INFOPLIST_FILE = CompeleteJenkinsAutomate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.CompeleteJenkinsAutomate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.MyAcuvueConsumer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "00291467-d492-44fa-ba5c-a907126f27f2";
+				PROVISIONING_PROFILE_SPECIFIER = "JNJ Universall App Distribution";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -627,6 +530,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Johnson & Johnson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johnson & Johnson";
+				DEVELOPMENT_TEAM = WYZ2CQVKKH;
 				INFOPLIST_FILE = CompeleteJenkinsAutomateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.CompeleteJenkinsAutomateTests;
@@ -642,40 +548,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Johnson & Johnson";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Johnson & Johnson";
+				DEVELOPMENT_TEAM = WYZ2CQVKKH;
 				INFOPLIST_FILE = CompeleteJenkinsAutomateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.CompeleteJenkinsAutomateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CompeleteJenkinsAutomate.app/CompeleteJenkinsAutomate";
-			};
-			name = Release;
-		};
-		FF2A250C1E2802EC0014EB94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03980B1FEC66F20C16929764 /* Pods-CompeleteJenkinsAutomateUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = CompeleteJenkinsAutomateUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.CompeleteJenkinsAutomateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = CompeleteJenkinsAutomate;
-			};
-			name = Debug;
-		};
-		FF2A250D1E2802EC0014EB94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E70E59DBAF82BED92CFE3F4C /* Pods-CompeleteJenkinsAutomateUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = CompeleteJenkinsAutomateUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jnj.test.CompeleteJenkinsAutomateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = CompeleteJenkinsAutomate;
 			};
 			name = Release;
 		};
@@ -698,6 +579,7 @@
 				FF2A25071E2802EC0014EB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF2A25081E2802EC0014EB94 /* Build configuration list for PBXNativeTarget "CompeleteJenkinsAutomateTests" */ = {
 			isa = XCConfigurationList;
@@ -706,14 +588,7 @@
 				FF2A250A1E2802EC0014EB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FF2A250B1E2802EC0014EB94 /* Build configuration list for PBXNativeTarget "CompeleteJenkinsAutomateUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF2A250C1E2802EC0014EB94 /* Debug */,
-				FF2A250D1E2802EC0014EB94 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
