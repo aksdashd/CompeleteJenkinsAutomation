@@ -1,0 +1,6 @@
+framework module Pods_CompeleteJenkinsAutomateUITests {
+  umbrella header "Pods-CompeleteJenkinsAutomateUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

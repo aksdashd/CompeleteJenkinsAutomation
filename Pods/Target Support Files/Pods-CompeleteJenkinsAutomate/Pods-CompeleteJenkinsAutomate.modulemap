@@ -1,0 +1,6 @@
+framework module Pods_CompeleteJenkinsAutomate {
+  umbrella header "Pods-CompeleteJenkinsAutomate-umbrella.h"
+
+  export *
+  module * { export * }
+}
